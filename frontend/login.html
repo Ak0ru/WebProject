@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="css/styles.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Task Tracker</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav-bar">
+            <div class="logo">Task Tracker</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="webcrumbs">
+            <div className="w-[900px] min-h-[600px] bg-white rounded-lg shadow-lg flex">
+                <div className="w-[50%] px-12 py-8 flex flex-col justify-center">
+                    <h1 className="text-3xl font-title text-primary font-semibold mb-1">
+                    </h1>
+                    <h2 className="text-4xl font-title font-bold mb-12">Signin</h2>
+
+                    <form id="login-form" class="flex flex-col gap-6">
+                        <div>
+                            <label for="email" class="block text-sm font-semibold mb-2">Email</label>
+                            <input type="email"
+                                   id="email"
+                                   placeholder="username@gmail.com"
+                                   class="w-full p-3 border border-neutral-400 rounded-md" />
+                        </div>
+                        <div>
+                            <label for="password" class="block text-sm font-semibold mb-2">Password</label>
+                            <input type="password"
+                                   id="password"
+                                   placeholder="password"
+                                   class="w-full p-3 border border-neutral-400 rounded-md" />
+                        </div>
+                        <a href="#" class="text-sm font-semibold text-primary mt-2">Forgot Password?</a>
+
+                        <button type="submit" class="mt-6 w-full bg-primary text-white py-3 rounded-md">Signin</button>
+
+                        <div class="flex items-center my-6">
+                            <div class="border-t border-neutral-400 flex-grow">
+                            </div>
+                        </div>
+                    </form>
+
+
+                    <div className="flex gap-4">
+
+
+                    </div>
+
+                    <p className="text-sm text-center mt-6">
+                        Don't have an account yet? <a href="#" className="text-primary font-semibold">Register for free</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Task Tracker. All rights reserved.</p>
+    </footer>
+    <script src="js/login.js"></script>
+</body>
+</html>
