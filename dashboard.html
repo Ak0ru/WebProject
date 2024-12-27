@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav-bar">
+            <div class="logo">Task Tracker</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="webcrumbs">
+        <div class="w-[920px] bg-white shadow rounded-lg p-6 flex flex-col gap-6">
+            <header class="flex justify-between items-center">
+                <h1 class="font-title text-2xl text-neutral-950">Task Tracker</h1>
+                <button class="bg-primary-500 text-primary-50 px-4 py-2 rounded-md">
+                    Add Task
+                </button>
+            </header>
+            <section class="flex flex-col gap-4">
+                <div class="border rounded-md p-4 bg-neutral-100">
+                    <h2 class="text-neutral-950 text-lg">To Do</h2>
+                    <ul class="flex flex-col gap-2 mt-2">
+                        
+                    </ul>
+                </div>
+                <div class="border rounded-md p-4 bg-neutral-100">
+                    <h2 class="text-neutral-950 text-lg">In Progress</h2>
+                    <ul class="flex flex-col gap-2 mt-2">
+                        
+                    </ul>
+                </div>
+                <div class="border rounded-md p-4 bg-neutral-100">
+                    <h2 class="text-neutral-950 text-lg">Completed</h2>
+                    <ul class="flex flex-col gap-2 mt-2">
+                       
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+<script src="js/dashboard.js"></script>
+<link rel="stylesheet" href="css/dashboard.css">
+</body>
+</html>
